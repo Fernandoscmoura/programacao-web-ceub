@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha de Carro</title>
+</head>
+<body>
+    <h1>Escolha seu Carro</h1>
+    <form action="resultado.html" method="get">
+        <label for="cor">Cor:</label>
+        <select id="cor" name="cor">
+            <option value="vermelho">Vermelho</option>
+            <option value="azul">Azul</option>
+            <option value="verde">Verde</option>
+        </select>
+        <br>
+        <label for="modelo">Modelo:</label>
+        <select id="modelo" name="modelo">
+            <option value="Sedan">Sedan</option>
+            <option value="SUV">SUV</option>
+            <option value="hatchback">hatchback</option>
+        </select>
+        <br>
+        <label for="ano">Ano:</label>
+        <input type="number" id="ano" name="ano" min="1900" max="2099" step="1" value="2022">
+        <br>
+        <button type="submit">Mostrar Escolha</button>
+    </form>
+</body>
+</html>
