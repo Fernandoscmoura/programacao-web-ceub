@@ -7,27 +7,27 @@ document.getElementById('escolha-cor').textContent = cor;
 document.getElementById('escolha-modelo').textContent = modelo;
 document.getElementById('escolha-ano').textContent = ano;
 
-// Defina a imagem do carro com base na escolha do modelo
+
 let imagemDoCarro;
 if (modelo === "Sedan") {
     if (cor === "vermelho") {
-        imagemDoCarro = "civicvermelho.jpg"; // Insira o caminho para a imagem do SUV vermelho
+        imagemDoCarro = "civicvermelho.jpg"; 
     } else if (cor === "azul") {
-        imagemDoCarro = "civicazul.jpg"; // Insira o caminho para a imagem do SUV azul
+        imagemDoCarro = "civicazul.jpg"; 
     } else if (cor === "verde") {
-        imagemDoCarro = "civicverde.jpg"; // Insira o caminho para a imagem do SUV verde
+        imagemDoCarro = "civicverde.jpg"; 
     }
 } else if (modelo === "SUV") {
     if (cor === "vermelho") {
-        imagemDoCarro = "suvvermelho.jpg"; // Insira o caminho para a imagem do SUV vermelho
+        imagemDoCarro = "suvvermelho.jpg"; 
     } else if (cor === "azul") {
-        imagemDoCarro = "suvazul.jpg"; // Insira o caminho para a imagem do SUV azul
+        imagemDoCarro = "suvazul.jpg"; 
     } else if (cor === "verde") {
-        imagemDoCarro = "suvverde.jpg"; // Insira o caminho para a imagem do SUV verde
+        imagemDoCarro = "suvverde.jpg"; 
     }
 } else if (modelo === "hatchback") {
     if (cor === "vermelho") {
-        imagemDoCarro = "hatchvermelho.jpg"; // Insira o caminho para a imagem do SUV vermelho
+        imagemDoCarro = "hatchvermelho.jpg"; 
     } else if (cor === "azul") {
         imagemDoCarro = "hatchazul.jpg"; 
     } else if (cor === "verde") {
