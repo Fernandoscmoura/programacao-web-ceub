@@ -2,6 +2,10 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.escondido {
-    display: none;
+select {
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+body{
+    background-color: black;
 }
